@@ -56,7 +56,6 @@
                       </div>
                   </div>
               </div>
-
               <div class="carousel-item">
                   <div class="row align-items-center">
                       <div class="col-md-7">
@@ -67,8 +66,7 @@
                       <div class="col-md-5">
                         <img src="./img/banner-products/slider-1.png" class="d-block w-100" alt="image">
                       </div>
-                  </div>
-                
+                  </div> 
               </div>
               <div class="carousel-item">
                 <div class="row align-items-center">
@@ -80,8 +78,7 @@
                     <div class="col-md-5">
                         <img src="./img/banner-products/slider-3.png" class="d-block w-100" alt="image">
                     </div>
-                </div>
-                
+                </div>   
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -117,7 +114,7 @@
               <div class="card-body">
                 <h5 class="card-title">Samsung Galaxy Note10+</h5>
                 <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis quisquam quaerat modi temporibus aperiam asperiores optio in qui similique.</p>
-                <h5>$699</h5>
+                <h5>$499</h5>
                 <button class="buy-now-button">Buy Now >></button>
                 
               </div>
@@ -182,34 +179,101 @@
           </div>
     </div>
 
-    <div class="container categories" class="">
-        <h3>categories</h3>
-        <div class="row ">
-            <div class="col-md-3 d-flex align-items-center w-100 cat-1">
-                <img src="./img/Categories/bag.png" alt="">
-                <h5>Bag</h5>
-            </div>
-            <div class="col-md-3">
-                <div class="row d-flex align-items-center w-100">
-                    <img src="./img/Categories/perfume.png" alt="">
-                    <h5>perfume</h5>
-                </div>
-                <div class="row d-flex align-items-center">
-                    <img src="./img/Categories/shoe.png" alt="">
-                    <h5>Shoes</h5>
-                </div>
-            </div>
-            <div class="col-md-6 d-flex align-items-center" class="img-fluid">
-                <img class="w-100" src="./img/Categories/pale-order.png" alt="">
-                <h5></h5>
-            </div>
-                
-        </div>
+    <!-- categories section -->
 
+    <div class="container categories">
+      <h3 id="categories">Categories</h3>
+      <div class="row">
+       <div class="col-md-6 ">
+          <div class="row">
+            <div class="col-md-3 card">
+              <div class="d-flex align-items-center">
+                <img src="./img/Categories/bag.png" alt="">
+              </div>
+              <div class="text-center">
+                <h3>Bag</h3>
+              </div>
+            </div>
+            <div class="col-md-3 flex-column ">
+              <div class="card">
+                <img src="./img/Categories/perfume.png" alt="">
+                <div>
+                  <h5 class="">Perfume</h5>
+                </div>
+              </div>
+             
+              <div class="card">
+                <img src="./img/Categories/shoe.png" alt="">
+                <div>
+                  <h3>Shoes</h3>
+                </div>
+              </div>     
+            </div>
+          </div>
+       </div>
+       <div class="col-md-6">
+        <img class="img-fluid d-flex justify-content-center" src="./img/Categories/pale-order.png" alt="">
+      </div>
+      </div>
+    </div>
+
+   
+
+    <!-- contact section -->
+
+    <div class="container " id="contact">
+      <div>
+       <div class="data">
+        <h3>Contact Us</h3>
+        <small>Fill the form Below to contact us*</small>
+       </div>
+        <form action="">
+          <div>
+            <label for="">Name*</label>
+            <input type="text" placeholder="Enter your name" class="form-control" >
+          </div>
+          <div>
+            <label for="">Email*</label>
+            <input type="email" placeholder="jhon@gmaol.com" class="form-control" >
+          </div>
+          <div>
+            <label for="">Mobile*</label>
+            <input type="number" placeholder="013-000-000-000" class="form-control" >
+          </div>
+          <div>
+            <label for="">Massage*</label>
+        <textarea name="massage" class="form-control" placeholder="type your massage" id="" cols="30" rows="10"></textarea>
+          </div>
+          <button class="btn btn-danger" type="submit">Submit</button>
+
+        </form>
+      </div>
+
+    </div>
+    <!-- about me section -->
+
+    <div class="container aboutMe" id="aboutUs">
+      <div class="row">
+      <div class="col-md-8">
+        <h3>About Me</h3>
+        <h5>I'm UI Designer and Front End <br> Developer from Dhaka, Bangladesh.</h5>
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat molestias blanditiis incidunt vero, dignissimos dolorem nulla! Esse expedita iusto, fugiat porro est optio minima eaque accusamus veniam doloremque vel repellendus aut nesciunt doloribus quod officia. Ea, iure ullam obcaecati animi dignissimos repudiandae, temporibus asperiores distinctio necessitatibus inventore magnam molestias praesentium!</p>
+        <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, sed?Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, modi!</p>
+      </div>
+      <div class="col-md-4">
+        <div>
+          <div class="d-flex justify-content-center">
+            <img src="./img/AD 3736 01 (1).jpg"  class="img-fluid img-thumbnail rounded-circle w-75 " alt="">
+          </div>
+          <div class="text-center">
+            <h4>MAHADI HASAN</h4>
+          <h6 class="skill">Junior Web Developer</h6></div>
+        </div>
+      </div>
+    </div>
     </div>
 
  <!-- footer section -->
-
  <footer class="main-footer">
      <p>copyright &copy: 2020,All Rights Reserves By Mahadi Hasan</p>
  </footer>

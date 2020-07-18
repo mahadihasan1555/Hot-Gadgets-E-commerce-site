@@ -33,6 +33,33 @@ span{
     border: none;
     box-shadow: 5px 5px 10px lightgray;
 }
+#categories{
+    margin-bottom: 40px;
+}
+.skill{
+    color: dimgrey;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+   
+    
+}
+.aboutME h5{
+    color:dimgray;
+}
+h5{
+    color: dimgray;
+}
+.data{
+    margin-bottom: 40px;
+}
+.btn{
+    margin-top: 20px;
+}
+.small{
+    color: dimgray;
+}
 .main-footer{
     color: dimgray;
     text-align: center;
